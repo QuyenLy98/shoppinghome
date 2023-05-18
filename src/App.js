@@ -151,6 +151,7 @@ function App() {
           </Navbar>
         </header>
         <div
+style={{ position: 'fixed', top: '50px', lefft: '0px' }}
           className={
             sidebarIsOpen
               ? 'active-nav side-navbar d-flex justify-content-between flex-wrap flex-column'
