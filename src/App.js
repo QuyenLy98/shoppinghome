@@ -72,7 +72,7 @@ function App() {
         }
       >
         <ToastContainer position="bottom-center" limit={1} />
-        <header>
+        <header style={{ marginBottom: '50px' }}>
           <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
             <Container>
               <Button
